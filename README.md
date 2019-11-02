@@ -41,3 +41,4 @@
 ## 시작 
 
 - 191031_javascript, 구구단 구현  [ issue : 함수에 대한 오해 ]
+- 191102_javascript, Array / function 
