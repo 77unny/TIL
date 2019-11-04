@@ -43,3 +43,4 @@
 - 191031_javascript, 구구단 구현  [ issue : 함수에 대한 오해 ]
 - 191102_javascript, Array / function 
 - 191103_javascript, 반복되는 함수 만들기 [ issue : for문 실수 / 터미널 ]
+- **1Week, Exercise : 호출될때마다 1씩 증가된 정수를 반환하는 함수 만들기**
