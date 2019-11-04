@@ -40,6 +40,8 @@
 
 ## 시작 
 
+> **매주 마다 Exercise, 처리 해볼것!**
+
 - 191031_javascript, 구구단 구현  [ issue : 함수에 대한 오해 ]
 - 191102_javascript, Array / function 
 - 191103_javascript, 반복되는 함수 만들기 [ issue : for문 실수 / 터미널 ]
