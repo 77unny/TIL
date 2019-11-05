@@ -46,6 +46,8 @@
 - 191102_javascript, Array / function 
 - 191103_javascript, 반복되는 함수 만들기 [ issue : for문 실수 / 터미널 ]
 - **1Week, Exercise : 호출될때마다 1씩 증가된 정수를 반환하는 함수 만들기**
+  - **1~1000 사이의 소수를 출력해보기** 
 - 191104_javascript, object 객체 [issue : arrow function를 사용해서는 안되는 경우 ]
-- 191105_javascript, arrow function 
+- 191105_javascript, exercise 풀이과정
 - 191106_javascript, 
+

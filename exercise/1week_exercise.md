@@ -47,7 +47,7 @@ console.log(increment())
 function increment(startNumber) {
   // 코드를 작성하세요.
   if (startNumber !== undefined) {
-		startNumber++
+    
   }
 }
 
@@ -63,8 +63,22 @@ console.log(increment()); // 4가 출력 되어야 함.
 
 > - 풀이
 
-```
+```javascript
+function increment(startNumber) {
+  // 코드를 작성하세요.
+  if (startNumber !== undefined) {
+    num = startNumber;
+  } else {
+    num++;
+    return num;
+  }
+}
 
+increment(1);
+increment();
+increment();
+
+console.log(increment()); // 4가 출력 되어야 함.
 ```
 
 
