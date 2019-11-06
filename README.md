@@ -49,5 +49,5 @@
   - **1~1000 사이의 소수를 출력해보기** 
 - 191104_javascript, object 객체 [issue : arrow function를 사용해서는 안되는 경우 ]
 - 191105_javascript, exercise 풀이과정
-- 191106_javascript, 
+- 191106_javascript, exercise 소수구하기
 
