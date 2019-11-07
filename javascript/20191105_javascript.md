@@ -18,8 +18,8 @@ for(let i = 1; i<10; i++){
 ```
 pop() : 맨뒤에 제거
 push() : 맨뒤에서 추가
-unshift() : 맨앞에서 제거
-shift() : 맨앞에서 추가
+unshift() : 맨앞에서 추가
+shift() : 맨앞에서 제거
 splice(a,b,c) : a번째에서 b만큼제거 또는 b대신 c를 추가 
 
 ```
