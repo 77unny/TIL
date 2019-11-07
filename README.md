@@ -50,4 +50,5 @@
 - 191104_javascript, object 객체 [issue : arrow function를 사용해서는 안되는 경우 ]
 - 191105_javascript, exercise 풀이과정
 - 191106_javascript, exercise 소수구하기
+- 191107_javascript, exercise 소수 완성 및 느낀점
 
