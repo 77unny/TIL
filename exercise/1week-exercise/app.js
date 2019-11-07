@@ -41,8 +41,18 @@ for(let i = 2; i <= 1000; i++ ) {
 
 // 4. 소수가 맞으면, 소수배열에 담기
 // 5. 소수배열 출력
+const getPrime = () => {
+    innerText = '<ul>';
+    for(let i = 0; i<number.prime.length; i++){
+        innerText = innerText + `<li>${i}</li>`
+    }
+    innerText = innerText + '</ul>';
+
+
+    document.body.innerHTML = innerText;
+};
 
 // 실행
 maxNumber(1000);
-document.body.innerHTML = `${number.prime}`
+getPrime();
 
