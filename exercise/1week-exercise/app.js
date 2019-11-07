@@ -44,7 +44,7 @@ for(let i = 2; i <= 1000; i++ ) {
 const getPrime = () => {
     innerText = '<ul>';
     for(let i = 0; i<number.prime.length; i++){
-        innerText = innerText + `<li>${i}</li>`
+        innerText = innerText + `<li>${number.prime[i]}</li>`
     }
     innerText = innerText + '</ul>';
 
