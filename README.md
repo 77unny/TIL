@@ -51,4 +51,5 @@
 - 191105_javascript, exercise 풀이과정
 - 191106_javascript, exercise 소수구하기
 - 191107_javascript, exercise 소수 완성 및 느낀점
+- 191108_algorithm, robozzle (function/if/stack)
 
