@@ -53,4 +53,5 @@
 - 191107_javascript, exercise 소수 완성 및 느낀점
 - 191108_algorithm, robozzle (function/if/stack)
 - 191109 javascript, 프로그래머스 문제 풀이
+- 191110 javascript, exercise 호출될떄마다 1씩증가 하는 함수
 
