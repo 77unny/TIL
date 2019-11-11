@@ -54,4 +54,5 @@
 - 191108_algorithm, robozzle (function/if/stack)
 - 191109 javascript, 프로그래머스 문제 풀이
 - 191110 javascript, exercise 호출될떄마다 1씩증가 하는 함수
+- 191111 javascript, function / object 로 구구단 구현
 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const gugudan = (x) => {
+        let ret = []
+        for (let i = 1; i <= 9; i++) {
+            ret[i] = x * i;
+        }
+        return ret;
+    };
+    const printResult = (n, ret) => {
+        document.write(`<h2>${n}단 구현</h2>`);
+        for (let i = 1; i <= 9; i++) {
+            document.write(`${n} x ${i} = ${n * i} <br>`);
+        }
+    };
+    const main = () => {
+        for (let i = 2; i <= 9; i++) {
+            let result = gugudan(i);
+            printResult(i, result);
+        }
+    };
+    main()
+
+</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    gugudan = {};
+    gugudan.result = [];
+    gugudan.current = 2;
+    gugudan.calculate = function (n) {
+        this.current = n;
+        for (let i = 0; i < 9; i++) {
+            this.result[i] = n * (i + 1);
+        }
+    };
+    gugudan.print = function () {
+        document.write(`<h1>${this.current}단 출력</h1>`)
+        for (let i = 0; i < 9; i++) {
+            document.write(`${this.current} x ${i + 1} = ${this.result[i]} <br>`)
+        }
+    };
+    const main = () =>{
+        for (let i = 2; i <= 9; i++) {
+            gugudan.calculate(i);
+            gugudan.print(i);
+        }
+    }
+    main();
+    main();
+</script>
+</body>
+</html>
