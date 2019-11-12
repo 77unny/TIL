@@ -10,7 +10,27 @@
     * 1.도움 없이 백지 상태에서 구구단 만들기
     * 2.사용자가 입력한 값에 따라 다른 구구단 계산해 출력해보기
     * */
-
+    const calcGugudan = (n) => {
+        let result = [];
+        for (let i = 0; i < 9; i++) {
+            result[i] = n * (i + 1);
+        }
+        return result;
+    };
+    const print = (n) => {
+        document.write(`<h2>${n}단 출력</h2>`);
+        for (let i = 0; i < 9; i++) {
+            document.write(`${n} x ${i + 1} = ${n * (i + 1)} <br>`)
+        }
+    };
+    const main = () => {
+        console.log('구구단이 실행 되었습니다.');
+        for(let i = 2; i <= 9; i++) {
+            calcGugudan(i);
+            print(i);
+        }
+    };
+    main();
 </script>
 </body>
 </html>
