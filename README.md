@@ -54,5 +54,9 @@
 - 191108_algorithm, robozzle (function/if/stack)
 - 191109 javascript, 프로그래머스 문제 풀이
 - 191110 javascript, exercise 호출될떄마다 1씩증가 하는 함수
+- **2Week, Exercise :  함수형 구구단 / 객체형 구구단 **
+  - algorithm : N의 자리 숫자 합계
 - 191111 javascript, function / object 로 구구단 구현
+- 191112 javascript, 함수의 역활
+- 191113 javascript, 원본데이터를 바꾸지 않는 배열 매소드 
 
