@@ -58,5 +58,7 @@
   - algorithm : N의 자리 숫자 합계
 - 191111 javascript, function / object 로 구구단 구현
 - 191112 javascript, 함수의 역활
-- 191113 javascript, 원본데이터를 바꾸지 않는 배열 매소드 
+- 191113 javascript, 원본데이터를 바꾸지 않는 배열 매소드
+- 191114 javascript, 배열 메소드 이해하기
+- 191115 javascript,  
 
