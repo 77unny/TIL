@@ -60,5 +60,6 @@
 - 191112 javascript, 함수의 역활
 - 191113 javascript, 원본데이터를 바꾸지 않는 배열 매소드
 - 191114 javascript, 배열 메소드 이해하기
-- 191115 javascript,  
+- 191115 javascript, 생성자 함수, 일반변수/참조변수
+- 191116 javascript, prototype, DOM/HTML
 
