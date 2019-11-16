@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>input / button 으로 console 출력해보기</title>
+</head>
+<body>
+<h1>input / button 으로 console 출력해보기</h1>
+<input type="text" id="input-txt">
+<button id="btn" onclick="returnTxt()">확인</button>
+<script>
+    let inputTxt = document.querySelector('#input-txt');
+    let btn = document.querySelector('#btn');
+
+    let returnTxt = () => {
+        console.log(inputTxt.value);
+    }
+</script>
+</body>
+</html>
