@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>사칙연산 계산기</title>
+</head>
+<body>
+<h1>사칙 연산 계산기</h1>
+<input type="number" id="num1">
+<input type="number" id="num2">
+<button id="btn-plus">더하기</button>
+<button id="btn-minus">빼기</button>
+<button id="btn-multiply">곱하기</button>
+<button id="btn-division">나누기</button>
+<p class="result"></p>
+<script>
+    let firstNum = document.querySelector('#num1');
+    let nextNum = document.querySelector('#num2');
+
+    let btnPlus = document.querySelector('#btn-plus');
+    let btnMinus = document.querySelector('#btn-minus');
+    let btnMultiply = document.querySelector('#btn-multiply');
+    let btnDivision = document.querySelector('#btn-division');
+
+    let result = document.querySelector('.result');
+
+    result.innerHTML = '0'
+    const plus = () => {
+        return result.innerHTML = Number(firstNum.value) + Number(nextNum.value);
+    };
+    const minus = () => {
+        return result.innerHTML = Number(firstNum.value) - Number(nextNum.value);
+    };
+    const multiply = () => {
+        return result.innerHTML = Number(firstNum.value) * Number(nextNum.value);
+    };
+    const division = () => {
+        return result.innerHTML = Number(firstNum.value) / Number(nextNum.value);
+    };
+    const main = () => {
+        btnPlus.onclick = plus;
+        btnMinus.onclick = minus;
+        btnMultiply.onclick = multiply;
+        btnDivision.onclick = division;
+    }
+    main();
+
+</script>
+</body>
+</html>
