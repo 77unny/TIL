@@ -62,4 +62,6 @@
 - 191114 javascript, 배열 메소드 이해하기
 - 191115 javascript, 생성자 함수, 일반변수/참조변수
 - 191116 javascript, prototype, DOM/HTML
+- 191117 javascript, ptototype 이해 / practice 계산기 만들기
+- 191118 javascript, practice 계산기 / 
 
