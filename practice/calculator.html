@@ -12,7 +12,7 @@
 <button id="btn-minus">빼기</button>
 <button id="btn-multiply">곱하기</button>
 <button id="btn-division">나누기</button>
-<p class="result"></p>
+<!--<p class="result"></p>-->
 <script>
     let firstNum = document.querySelector('#num1');
     let nextNum = document.querySelector('#num2');
@@ -22,27 +22,28 @@
     let btnMultiply = document.querySelector('#btn-multiply');
     let btnDivision = document.querySelector('#btn-division');
 
-    let result = document.querySelector('.result');
-
+    // let result = document.querySelector('.result');
+    let result = document.createElement('p');
+    document.body.appendChild(result)
+    console.log(result);
     result.innerHTML = '0'
-    const plus = () => {
-        return result.innerHTML = Number(firstNum.value) + Number(nextNum.value);
-    };
-    const minus = () => {
-        return result.innerHTML = Number(firstNum.value) - Number(nextNum.value);
-    };
-    const multiply = () => {
-        return result.innerHTML = Number(firstNum.value) * Number(nextNum.value);
-    };
-    const division = () => {
-        return result.innerHTML = Number(firstNum.value) / Number(nextNum.value);
+
+    const plus = () => result.innerHTML = Number(firstNum.value) + Number(nextNum.value);
+    const minus = () => result.innerHTML = Number(firstNum.value) - Number(nextNum.value);
+    const multiply = () =>  result.innerHTML = Number(firstNum.value) * Number(nextNum.value);
+    const division = () =>  result.innerHTML = Number(firstNum.value) / Number(nextNum.value);
+
+    // 리팩토링, 중복 코드 제거
+    const calc = () => {
+
+        result.innerHTML = Number(firstNum.value) + Number(nextNum.value);
     };
     const main = () => {
         btnPlus.onclick = plus;
         btnMinus.onclick = minus;
         btnMultiply.onclick = multiply;
         btnDivision.onclick = division;
-    }
+    };
     main();
 
 </script>
