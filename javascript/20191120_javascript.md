@@ -10,19 +10,46 @@
 
  ```javascript
 let arr = [1,2,3,4,5]
+let arr1 = [1,2,3,4,5]
 let arr2 = ['홍길동','김철수','김나미']
+let str1 = 'Hello'
+let str2 = 'world'
 
 //기존 데이터가 변하지 않는 배열 concat,join,split,slice
+let arrConcat = arr1.concat(arr2);
+let strConcat = str1.concat(str2);
+console.log(arrConcat)
+console.log(strConcat)
 
+let arrJoin = arr2.join('');
+let strJoin = str1.split('').join('');
+console.log(arrJoin)
+console.log(strJoin)
 
+let strSplit = str1.split('');
+console.log(strSplit)
+
+let arrSlice = arr1.slice(0,3);
+let strSlice = str1.split('').slice(0,3);
+console.log(arrSlice)
+console.log(strSlice)
 
 //기존 데이터가 변하는 배열 pop,push,unshift,shift,splice
+let arrPop = arr.pop();
+console.log(arrPop)
 
+let arrPush = arr.push(6);
+console.log(arrPush)
 
+let arrUnshift = arr.unshift(0);
+console.log(arrUnshift)
+
+let arrShift = arr.shift();
+console.log(arrShift)
 
 //기타 indexOf
-
-
+console.log(arr)
+console.log(arr.indexOf(5));
  ```
 
  ```
