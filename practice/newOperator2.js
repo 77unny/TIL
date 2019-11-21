@@ -42,15 +42,16 @@ const Person = function(name,weight){
 // Person prototype eat
 Person.prototype.eat = function(foodName){
     for (let i in food) {
-        if (food[i].name === foodName) {
-            this.weight += calc(food[i].calorie);
-        }
+        if (food[i].name === foodName) this.weight += calc(food[i].calorie);
     }
     console.log(`${this.name}이 ${foodName}를 먹어 몸무게가 ${this.weight}kg이 되었습니다.`)
 };
 // Person prototype exercise
-Person.prototype.exercise = function(exercise){
-
+Person.prototype.exercise = function(exerciseName){
+    for (let i in exercise) {
+        if (exercise[i].name === exerciseName) this.weight -= calc(exercise[i].calorie);
+    }
+    console.log(`${this.name}이 ${exerciseName}을 하여 몸무게가 ${this.weight}kg이 되었습니다.`)
 };
 // claorie calc
 const calc = (calorie) => {
@@ -60,6 +61,8 @@ const calc = (calorie) => {
 
 let a = new Person('홍길동', 50);
 a.eat('피자');
+a.exercise('축구');
+
 
 
 
