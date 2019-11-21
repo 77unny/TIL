@@ -64,4 +64,7 @@
 - 191116 javascript, prototype, DOM/HTML
 - 191117 javascript, ptototype 이해 / practice 계산기 만들기
 - 191118 javascript, practice 계산기 / 
+- 191119 javascript, 생성자/프로토타입 활용하기 1
+- 191120 javascript, 생성자/프로토타입 활용하기 2-1 
+  - **practice : 생성자/프로토타입 음식,운동 구현**
 
