@@ -91,8 +91,7 @@
 - 191120 javascript, 생성자/프로토타입 활용하기 2-1 
 
   - [https://github.com/baekCode/TIL/blob/master/practice/newOperator2.js]: **practice : 생성자/프로토타입 음식,운동 구현**
-
-    
+    [practice : 생성자/프로토타입 음식,운동 구현]: https://github.com/baekCode/TIL/blob/master/practice/newOperator2.js
 
 - 191121 javascript, 생성자/프로토타입 활용하기 2-2 완료
 
