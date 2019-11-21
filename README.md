@@ -43,29 +43,56 @@
 > **매주 마다 Exercise, 처리 해볼것!**
 
 - 191031_javascript, 구구단 구현  [ issue : 함수에 대한 오해 ]
+
 - 191102_javascript, Array / function 
+
 - 191103_javascript, 반복되는 함수 만들기 [ issue : for문 실수 / 터미널 ]
+
 - **1Week, Exercise : 호출될때마다 1씩 증가된 정수를 반환하는 함수 만들기**
+  
   - **1~1000 사이의 소수를 출력해보기** 
+  
 - 191104_javascript, object 객체 [issue : arrow function를 사용해서는 안되는 경우 ]
+
 - 191105_javascript, exercise 풀이과정
+
 - 191106_javascript, exercise 소수구하기
+
 - 191107_javascript, exercise 소수 완성 및 느낀점
+
 - 191108_algorithm, robozzle (function/if/stack)
+
 - 191109 javascript, 프로그래머스 문제 풀이
+
 - 191110 javascript, exercise 호출될떄마다 1씩증가 하는 함수
+
 - **2Week, Exercise :  함수형 구구단 / 객체형 구구단 **
+  
   - algorithm : N의 자리 숫자 합계
+  
 - 191111 javascript, function / object 로 구구단 구현
+
 - 191112 javascript, 함수의 역활
+
 - 191113 javascript, 원본데이터를 바꾸지 않는 배열 매소드
+
 - 191114 javascript, 배열 메소드 이해하기
+
 - 191115 javascript, 생성자 함수, 일반변수/참조변수
+
 - 191116 javascript, prototype, DOM/HTML
+
 - 191117 javascript, ptototype 이해 / practice 계산기 만들기
+
 - 191118 javascript, practice 계산기 / 
+
 - 191119 javascript, 생성자/프로토타입 활용하기 1
+
 - 191120 javascript, 생성자/프로토타입 활용하기 2-1 
-  - **practice : 생성자/프로토타입 음식,운동 구현**
+
+  - [https://github.com/baekCode/TIL/blob/master/practice/newOperator2.js]: **practice : 생성자/프로토타입 음식,운동 구현**
+
+    
+
 - 191121 javascript, 생성자/프로토타입 활용하기 2-2 완료
 
