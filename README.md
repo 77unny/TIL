@@ -68,4 +68,8 @@
 - 191120 javascript, 생성자/프로토타입 활용하기 2-1 
   - [practice : 생성자/프로토타입 활용 - 음식,운동 구현](https://github.com/baekCode/TIL/blob/master/practice/newOperator2.js)
 - 191121 javascript, 생성자/프로토타입 활용하기 2-2 완료
+- 191122 javascript, 복습
+- 191123 javascript, es5 변수, const / let / 호이스팅
+- 191124 javascript, 재귀, 자기자신을 재호출
+- 191125 javascript, 재귀2, 성능 차이 / Math함수
 
