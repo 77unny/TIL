@@ -18,10 +18,10 @@ const fibo = n => {
     return fibo(n - 1) + fibo(n - 2);
 };
 
-let arr = [0,1];
-const fiboD = (n)=>{
-    if(arr[n]== undefined){
-        arr[n] = fiboD(n-1) + fiboD(n-2);
+let arr = [0, 1];
+const fiboD = n => {
+    if (arr[n] == undefined) {
+        arr[n] = fiboD(n - 1) + fiboD(n - 2);
     }
     return arr[n];
-}
+};
