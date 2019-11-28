@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>BMI 계산기</title>
+    </head>
+    <body>
+        <h2>BMI (Body Mass Index) : 비만도 계산</h2>
+        <div>
+            <span>몸무게(kg)</span>
+            <input class="weight" type="text" />
+        </div>
+        <div>
+            <span>신장(cm)</span>
+            <input class="height" type="text" />
+        </div>
+        <div>
+            <p class="result">결과값 출력</p>
+            <button class="calc">계산하기</button>
+        </div>
+        <div>
+            <ul>
+                <li>18.5 이하 저체중</li>
+                <li>18.5 ~ 23 정상</li>
+                <li>23 ~ 25 과체중</li>
+                <li>25 ~ 30 비만</li>
+                <li>30 ~ 고도비만</li>
+            </ul>
+        </div>
+        <script src="basicBMI.js"></script>
+    </body>
+</html>
