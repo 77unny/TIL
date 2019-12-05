@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>사칙연산 계산기</title>
+    </head>
+    <body>
+        <h1>사칙 연산 계산기</h1>
+        <input type="text" id="num" />
+        <button id="btn-result">결과</button>
+        <p class="result">결과 값이 출력 됩니다.</p>
+        <script>
+            let button = document.querySelector('#btn-result');
+            let resultText = document.querySelector('.result');
+            let input = {};
+
+            let result = () => {
+                let num = document.querySelector('#num').value;
+                let arr = num.split(' ');
+                //console.log(arr);
+                for (let i in arr) {
+                    if (arr[i] == '+') arr = Number(arr[0]) + Number(arr[2]);
+                    if (arr[i] == '-') console.log('-');
+                    if (arr[i] == '*') console.log('*');
+                    if (arr[i] == '/') console.log('/');
+                }
+                resultText.innerHTML = `연산 결과 값은 ${arr}입니다.`;
+            };
+            button.onclick = result;
+        </script>
+    </body>
+</html>
