@@ -72,4 +72,15 @@
 - 191123 javascript, es5 변수, const / let / 호이스팅
 - 191124 javascript, 재귀, 자기자신을 재호출
 - 191125 javascript, 재귀2, 성능 차이 / Math함수
+- 191126 javascript,
+- 191127 javascript,
+- 191128 javascript,
+- 191129 javascript,
+- 191130 javascript,
+- 191201 javascript,
+- 191202 javascript,
+- 191203 javascript,
+- 191204 javascript,
+- 191205 javascript,
+- 191206 javascript,
 
