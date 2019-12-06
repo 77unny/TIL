@@ -72,9 +72,9 @@
 - 191123 javascript, es5 변수, const / let / 호이스팅
 - 191124 javascript, 재귀, 자기자신을 재호출
 - 191125 javascript, 재귀2, 성능 차이 / Math함수
-- 191126 javascript,
-- 191127 javascript,
-- 191128 javascript,
+- 191126 javascript, Math함수
+- 191127 javascript, for문, while문 이슈, (차이)
+- 191128 javascript, setInterval / clearInterval
 - 191129 javascript,
 - 191130 javascript,
 - 191201 javascript,
