@@ -13,5 +13,35 @@
 
 
 
+**객체에서 arrow function은 this가 전역으로 바인딩!**
 
+`let` 과 `var` 
+
+먼저 for 문의 `var`
+
+```javascript
+// element LIST를 클릭 했을 경우 몇번째 클릭했는지
+var list = document.querySelectorAll('li');
+for(var i = 0; i < list.length; i++){
+	liet[i].addEventListener('click', function(){
+    console.log(`${i}번째 입니다.`)
+  })
+}
+
+//결과 값은 list 마지막의 값이 출력된다.
+```
+
+for문의 `let`
+
+```javascript
+// element LIST를 클릭 했을 경우 몇번째 클릭했는지
+var list = document.querySelectorAll('li');
+for(let i = 0; i < list.length; i++){
+	liet[i].addEventListener('click', function(){
+    console.log(`${i}번째 입니다.`)
+  })
+}
+
+//결과는 정상적으로 출력이 된다.
+```
 
