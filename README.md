@@ -75,9 +75,9 @@
 - 191126 javascript, Math함수
 - 191127 javascript, for문, while문 이슈, (차이)
 - 191128 javascript, setInterval / clearInterval
-- 191129 javascript,
-- 191130 javascript,
-- 191201 javascript,
+- 191129 javascript, let 과 var, for문으로 확인
+- 191130 javascript, while 반복문 이해하기
+- 191201 javascript, 연산자, 부등 우선순위
 - 191202 javascript,
 - 191203 javascript,
 - 191204 javascript,
