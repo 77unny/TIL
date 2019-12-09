@@ -13,5 +13,21 @@
 
 
 
-`for 문`  `for ~ in`
+`while` 반복문
+
+```javascript
+/*
+while(조건){
+	실행,
+  종료 조건
+}
+*/
+let a = 0;
+while(a < 10){
+	console.log('실행될 부분');
+  a++;
+}
+```
+
+`for문` 과 다르게 `while문`은 조건에 따라 반복한다.
 
