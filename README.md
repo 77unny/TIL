@@ -78,7 +78,7 @@
 - 191129 javascript, let 과 var, for문으로 확인
 - 191130 javascript, while 반복문 이해하기
 - 191201 javascript, 연산자, 부등 우선순위
-- 191202 javascript,
+- 191202 javascript, window / document 객체 (DOM)
 - 191203 javascript,
 - 191204 javascript,
 - 191205 javascript,
