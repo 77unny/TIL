@@ -80,7 +80,7 @@
 - 191201 javascript, 연산자, 부등 우선순위
 - 191202 javascript, window / document 객체 (DOM)
 - 191203 javascript, 로또번호 생성 구현
-- 191204 javascript,
+- 191204 javascript, 객체의 this, 객체의 하위 객체의 this
 - 191205 javascript,
 - 191206 javascript,
 
