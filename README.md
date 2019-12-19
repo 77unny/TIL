@@ -83,4 +83,5 @@
 - 191204 javascript, 객체의 this, 객체의 하위 객체의 this
 - 191205 javascript, proxy 패턴
 - 191206 javascript,
+- 191207 javascript,
 
