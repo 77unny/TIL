@@ -30,7 +30,7 @@ foo()
 foo(null, false)
 ```
 ```javascript
-const foo = (x = 1, y = 2) {
+const foo = (x = 1, y = 2) => {
 	console.log(x,y)
 }
 foo(0,1)
