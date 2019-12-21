@@ -83,5 +83,5 @@
 - 191204 javascript, 객체의 this, 객체의 하위 객체의 this
 - 191205 javascript, proxy 패턴
 - 191206 javascript, 함수 표현식, 함수 선언식
-- 191207 javascript,
+- 191207 javascript, Default Parameter
 

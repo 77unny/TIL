@@ -1,11 +1,11 @@
-const num = [1,2,3,4,5,6,7,8,9];
-const num2 = []
-const num3 = [2,3,4]
+const f = (x, y, z) => {
+    x = x ? x : 4;
+    y = y || 5;
+    if (!z) {
+        z = 6;
+    }
+    console.log(x, y, z);
+};
 
-for(let i =0; i<3; i++ ){
-    let ran = Math.floor(Math.random()*num.length);
-    let a = num.splice(ran,1)[0];
-    console.log(`랜덤 수 : ${ran}`);
-    num2.push(a);
-}
-
+f(1,2);
+f(0, null);
