@@ -8,7 +8,7 @@ const f = (x, y, z) => {
 };
 
 f(1, 2);
-f(0, null); 
+f(0, null);
 f(false, null, undefined);
 
 const f2 = (x = 1, y = 2) => {
@@ -39,7 +39,45 @@ const foo3 = (x = 1, y = noValid()) => {
 };
 foo3(1);
 
-const foo4 = (a,...z)=>{
+const foo4 = (a, ...z) => {
     console.log(z);
-}
-foo4(1,2,3,4,5,6,false);
+};
+foo4(1, 2, 3, 4, 5, 6, false);
+
+const getCircle = a => {
+    const result = Math.PI * a;
+    console.log(result);
+    return result;
+};
+const getRect = (a, b) => {
+    const result = a * b;
+    console.log(result);
+    return result;
+};
+
+const getTrapezoid = (a, b, h) => {
+    const result = (a + b) * h * 0.5;
+    console.log(result);
+    return result;
+};
+
+const getArea = (type, a, b, h) => {
+    const shape = type;
+    switch (shape) {
+        case 'circle':
+            console.log('circle');
+            return getCircle(a);
+        case 'rect':
+            console.log('rect');
+            return getRect(a, b);
+        case 'trapezoid':
+            console.log('trapezoid');
+            return getTrapezoid(a, b, h);
+        default:
+            console.log('해당 도형이 없습니다.');
+    }
+};
+
+getArea('circle', 10);
+getArea('rect', 10, 15);
+getArea('trapezoid', 10,15,12)

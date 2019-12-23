@@ -88,3 +88,4 @@
 - 191209 javascript, Rest Parameter
 - 191210 javascript, const 변수
 - 191211 javascript, 함수호출과 stack / call stack
+- 191212 javascript, 미션 getArea() 함수 만들기
