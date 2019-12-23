@@ -84,4 +84,5 @@
 - 191205 javascript, proxy 패턴
 - 191206 javascript, 함수 표현식, 함수 선언식
 - 191207 javascript, Default Parameter
+- 191208 javascript, TDZ 개념
 
