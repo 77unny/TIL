@@ -86,3 +86,4 @@
 - 191207 javascript, Default Parameter
 - 191208 javascript, TDZ 개념
 - 191209 javascript, Rest Parameter
+- 191210 javascript, const 변수

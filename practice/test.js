@@ -38,3 +38,8 @@ const foo3 = (x = 1, y = noValid()) => {
     console.log(x, y);
 };
 foo3(1);
+
+const foo4 = (a,...z)=>{
+    console.log(z);
+}
+foo4(1,2,3,4,5,6,false);
