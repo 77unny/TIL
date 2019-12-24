@@ -61,23 +61,28 @@ const getTrapezoid = (a, b, h) => {
     return result;
 };
 
-const getArea = (type, a, b, h) => {
+const getArea = (type, ...prmt) => {
+    const arryPrmt = [...prmt];
+    // arryPrmt.push(...prmt); push를 안해도 배열로 들어가짐
     const shape = type;
     switch (shape) {
         case 'circle':
             console.log('circle');
-            return getCircle(a);
+            getCircle(arryPrmt[0]);
+            break;
         case 'rect':
             console.log('rect');
-            return getRect(a, b);
+            getRect(arryPrmt[0], arryPrmt[1]);
+            break;
         case 'trapezoid':
             console.log('trapezoid');
-            return getTrapezoid(a, b, h);
+            getTrapezoid(arryPrmt[0], arryPrmt[1], arryPrmt[2]);
+            break;
         default:
             console.log('해당 도형이 없습니다.');
     }
 };
 
-getArea('circle', 10);
+getArea('circle', 10, 10);
 getArea('rect', 10, 15);
-getArea('trapezoid', 10,15,12)
+getArea('trapezoid', 10, 15, 12);
