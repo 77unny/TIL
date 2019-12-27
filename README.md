@@ -92,3 +92,4 @@
 - 191213 javascript, Scope chain
 - 191214 javascript, 재귀
 - 191215 javascript, 객체 object
+- 191216 javascript, 배열 메소드 
