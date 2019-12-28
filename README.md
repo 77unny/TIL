@@ -93,3 +93,4 @@
 - 191214 javascript, 재귀
 - 191215 javascript, 객체 object
 - 191216 javascript, 배열 메소드 
+- 191217 javascript, 변수 할당으로 의도 표현 - 1 : const
