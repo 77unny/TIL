@@ -97,3 +97,4 @@
 - 191218 javascript, **BOOK :** 변수 할당으로 의도 표현 - 2 / 3 / 4 / TIP
 - 191219 javascript, **BOOK :** 배열로 데이터 컬렉션 관리
 - 191220 javascript, 모듈이란? 모듈 개념 정리
+- 191221 javascript, node 환경에서의 모듈
