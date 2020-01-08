@@ -5,13 +5,13 @@ const Node = function(element) {
 
 const LinkedList = function() {
     this.head = new Node('head');
-    // this.find = find;
-    // this.insert = insert;
+    this.find = find;
+    this.insert = insert;
     // this.remove = remove;
-    // this.display = display;
+    this.display = display;
 };
 
-LinkedList.prototype.find = function(item) {
+const find = (item) => {
     let currentNode = this.head;
     while (currentNode.element != item) {
         currentNode = currentNode.next;
@@ -19,14 +19,14 @@ LinkedList.prototype.find = function(item) {
     return currentNode;
 };
 
-LinkedList.prototype.insert = function(newElement, item) {
+const insert = (newElement, item) => {
     let newNode = new Node(newElement);
     let current = this.find(item);
     newNode.next = current.next;
     current.next = newNode;
 };
 
-LinkedList.prototype.display = function() {
+const display = () => {
     let currentNode = this.head;
     while (!(currentNode === null)) {
         // console.log(currentNode)
