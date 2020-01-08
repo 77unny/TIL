@@ -11,29 +11,29 @@ const LinkedList = function() {
     this.display = display;
 };
 
-const find = (item) => {
+function find(item) {
     let currentNode = this.head;
     while (currentNode.element != item) {
         currentNode = currentNode.next;
     }
     return currentNode;
-};
+}
 
-const insert = (newElement, item) => {
+function insert(newElement, item) {
     let newNode = new Node(newElement);
     let current = this.find(item);
     newNode.next = current.next;
     current.next = newNode;
-};
+}
 
-const display = () => {
+function display() {
     let currentNode = this.head;
     while (!(currentNode === null)) {
         // console.log(currentNode)
-        console.log(currentNode.element)
+        console.log(currentNode.element);
         currentNode = currentNode.next;
     }
-};
+}
 
 const cities = new LinkedList();
 cities.insert('Conway', 'head');
