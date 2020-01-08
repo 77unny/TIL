@@ -29,6 +29,8 @@ LinkedList.prototype.insert = function(newElement, item) {
 LinkedList.prototype.display = function() {
     let currentNode = this.head;
     while (!(currentNode === null)) {
+        // console.log(currentNode)
+        console.log(currentNode.element)
         currentNode = currentNode.next;
     }
 };
