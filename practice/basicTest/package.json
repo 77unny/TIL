@@ -1,0 +1,16 @@
+{
+  "name": "basicTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^24.0.25",
+    "jest": "^24.9.0"
+  }
+}
