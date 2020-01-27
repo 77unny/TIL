@@ -30,10 +30,62 @@ const book = {
 };
 const update = { ...book, year: 2019 };
 const update2 = { ...book, title: 'JavaScript' };
-const update3 = {...defaultBook,...book};
+const update3 = { ...defaultBook, ...book };
 console.log(update);
 console.log(update2);
 console.log(update3);
 console.log(defaultBook);
 console.log(book);
 
+// 3) map 으로 key - value 갱신
+const dogs = [
+    {
+        이름: '뿡이',
+        크기: '중형견',
+        견종: '믹스비글',
+        색상: '갈색&흰색'
+    },
+    {
+        이름: '해리',
+        크기: '소형견',
+        견종: '말티츄',
+        색상: '흰색&검정'
+    },
+    {
+        이름: '홍식',
+        크기: '중형견',
+        견종: '믹스',
+        색상: '갈색'
+    },
+    {
+        이름: '순',
+        크기: '중형견',
+        견종: '시바',
+        색상: '갈색'
+    }
+];
+let filters = {}; // 일반적인? key - value 추가 방식
+function addFilters(filters, key, value) {
+    filters[key] = value;
+    return getFilters();
+}
+function removeFilters(filters, key) {
+    delete filters[key];
+    return getFilters();
+}
+function clearFilters(filters) {
+    filters = {};
+    return getFilters();
+}
+function getFilters() {
+    console.log(filters);
+}
+getFilters();
+addFilters(filters,'무게','10Kg');
+// 맵을 이용한 key value 추가
+let filters2 = new Map(); // Map() 선언
+filters2.set('견종','리트리버').set('크기','대형견'); // set 으로 추가
+console.log(filters2.get('견종')); // get 으로 호출
+console.log(filters2);
+console.log(filters2.clear()); // clear()를 이용하여 초기화 
+console.log(filters2);
