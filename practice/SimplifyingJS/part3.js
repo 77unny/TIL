@@ -81,11 +81,36 @@ function getFilters() {
     console.log(filters);
 }
 getFilters();
-addFilters(filters,'무게','10Kg');
+addFilters(filters, '무게', '10Kg');
 // 맵을 이용한 key value 추가
 let filters2 = new Map(); // Map() 선언
-filters2.set('견종','리트리버').set('크기','대형견'); // set 으로 추가
-console.log(filters2.get('견종')); // get 으로 호출
+// filters2.set('견종','리트리버').set('크기','대형견'); // set 으로 추가
+function addFilters2(filters, key, value) {
+    filters.set(key, value);
+    return getFilters2();
+}
+function removeFilters2(filters, key) {
+    filters.delete(key);
+    return getFilters2();
+}
+function clearFilters2(filters) {
+    filters.clear();
+    return getFilters2();
+}
+function getFilters2() {
+    console.log(filters2);
+}
+addFilters2(filters2, '이름', '뿡이');
+addFilters2(filters2, '이름', '해리');
 console.log(filters2);
-console.log(filters2.clear()); // clear()를 이용하여 초기화 
-console.log(filters2);
+
+// 미션 : filters3에 배열 형태의 객체를 담아 볼것
+const filters3 = [];
+function addFilter3(filters, key, value) {
+    obj = new Map();
+    obj.set(key, value);
+    filters.push(obj);
+}
+addFilter3(filters3, '이름', '뿡이');
+addFilter3(filters3, '이름', '해리');
+console.log(filters3);
