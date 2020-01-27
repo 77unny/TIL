@@ -114,3 +114,13 @@ function addFilter3(filters, key, value) {
 addFilter3(filters3, '이름', '뿡이');
 addFilter3(filters3, '이름', '해리');
 console.log(filters3);
+
+// 4) 맵과 펼침 연산자로 데이터 순회
+const mapFilters = new Map().set('색상','갈색').set('견종','리트리버');
+function checkFilters (filters){
+    for (const iterator of filters) {
+        console.log(iterator);
+    }
+}
+checkFilters(mapFilters); // 출력 결과 : ['색상','갈색'] ['견종','리트리버']
+console.log(mapFilters.entries()) // 맵이터레이터,Map iterator => Map() 메소드인 entries() 사용 하여 출력
