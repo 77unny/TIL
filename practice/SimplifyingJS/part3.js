@@ -124,3 +124,4 @@ function checkFilters (filters){
 }
 checkFilters(mapFilters); // 출력 결과 : ['색상','갈색'] ['견종','리트리버']
 console.log(mapFilters.entries()) // 맵이터레이터,Map iterator => Map() 메소드인 entries() 사용 하여 출력
+console.log(...mapFilters); // 펼침연산자로 더쉽게 출력
