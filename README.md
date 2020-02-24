@@ -20,14 +20,10 @@
 8. 출퇴근 시간에 강의 보거나 책읽기
 
    #### <u>**나의 선택, 그리고 노력, 절제를 꼭 하자!**</u>
+   
+   
 
-## 작성법
-
-- 폴더와 파일명은 될 수 있으면 영문으로 작성.
-- 날짜 / 분류 / 이슈 내용 으로 작성.
-- Markdown으로 작성.
-
-## 공부 하고 싶은 것
+## 공부 해야 할 것
 
 - 자바스크립트
 - SASS ( + BEM 아키텍쳐)
@@ -38,7 +34,23 @@
 - Jest : 테스트
 - TypeScript
 
-## 시작 
+
+
+**앞으로 TIL 작성은 개발 관련 블로그에서 작성합니다.**
+
+[baekCo 개발 블로그](https://www.notion.so/baekCo-aeedfe4ada5c41829065d84321d70c66)
+
+- [프로그램 & 프로세스 개념](https://www.notion.so/64187a737b414606a6f2544a8703ea0a)
+- [자바스크립트 엔진 동작 원리 - Heap](https://www.notion.so/Heap-f0fc69a41d45455985eb7d4f9a43eaac)
+- [자바스크립트 엔진 동작 원리 - Call stack](https://www.notion.so/Call-stack-d621a1e9bb964525aca3d293ec78e6b7)
+- [자바스크립트 엔진 동작 원리 - Queue , Event Loop](https://www.notion.so/Callback-Queue-Event-Queue-Event-Loop-a406fc14add0484b9401710df9038b35)
+- [JS 정리 - JSON (JavaScript Object Notaiton)](https://www.notion.so/JSON-JavaScript-Object-Notation-8749a98c7f56423997830d176b39e0b1)
+- [JS 정리 - JSON 과 XML](https://www.notion.so/JSON-XML-52adc11109e549bf8eb37ef4dc9a8a53)
+- [JS 정리 - 객체지향 prototype - 프로토타입 이해](https://www.notion.so/55f295ed883d4c4b80293e42e25916f4)
+
+
+
+## 시작
 
 > **매주 마다 Exercise, 처리 해볼것!**
 
