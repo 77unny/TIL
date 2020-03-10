@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            .square {
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                display: inline-block;
+                background: #000;
+                color: #fff;
+                font-size: 150%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="element-observer1" class="square"></div>
+        <hr />
+        <button onclick="model.increment()">Increment</button>
+        <script src="NumberModel.js"></script>
+        <script src="ElementObserver.js"></script>
+        <script>
+            const model = new NumberModel();
+            const eObs1 = new ElementObserver('#element-observer1')
+            model.addObserver(eObs1);
+            model.notify();
+        </script>
+    </body>
+</html>
