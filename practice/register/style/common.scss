@@ -1,0 +1,21 @@
+h1 { 
+  margin: 50px auto;
+  font-size: $font-size-title;
+  color: $color-ci;
+  text-align: center;
+}
+.contents { 
+  width: $inner-width;
+  margin: 0 auto;
+  .row {
+    overflow: hidden;
+    margin: 15px 0;
+  }
+}
+.info-msg {
+  font-size: $font-size-small;
+  color: $color-ci;
+  &.error {
+    color: $color-error;
+  }
+}

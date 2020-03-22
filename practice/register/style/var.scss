@@ -1,0 +1,20 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+/* Layout */
+$inner-width: 500px;
+
+/* color */
+$color-default: #252525;
+$color-ci: #00c84f;
+$color-white: #fff;
+$color-error: #e65f3e;
+
+/* Font-family */
+$font-family-default: 'Spoqa Han Sans', sans-serif;
+
+/* Font-size */
+$font-size-default: 14px;
+$font-size-small: $font-size-default - 2px;
+$font-size-large: $font-size-default + 2px;
+$font-size-extra: $font-size-default + 4px;
+
+$font-size-title: $font-size-default * 3.5;
