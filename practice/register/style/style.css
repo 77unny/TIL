@@ -3,7 +3,6 @@
 /* color */
 /* Font-family */
 /* Font-size */
-@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -183,11 +182,7 @@ button {
   height: 30px;
 }
 
-/* Layout */
-/* color */
-/* Font-family */
-/* Font-size */
-h1 {
+h1.title {
   margin: 50px auto;
   font-size: 49px;
   color: #00c84f;
