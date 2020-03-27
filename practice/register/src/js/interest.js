@@ -1,12 +1,14 @@
 
 const tags = [];
 
-export function addInterests({ key }, tagUiWrap, signupInterests) {
+
+export function addInterestss(key, tagUiWrap, signupInterests) {
     if (key !== ',') return;
-    const interest = signupInterests.value.replace(/[,]/g, '');
-    signupInterests.value = '';
-    if (!interest) return;
+    const interest = key.replace(/[,]/g, '');
     tags.push(interest);
+    key.value = '';
+    if (!interest) return;
+    console.log(interest);
     return updateTag(tagUiWrap);
 }
 
